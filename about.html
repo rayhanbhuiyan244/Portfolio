@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Rayhan Bhuiyan</title>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: a nicer font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.jpg" type="image/jpeg">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <a href="index.html" class="text-xl font-bold text-slate-800">Rayhan Bhuiyan</a>
+
+      <div class="flex gap-6 text-slate-600 font-medium">
+        <a href="index.html" class="hover:text-orange-600 transition">Home</a>
+        <a href="about.html" class="text-orange-600">About</a>
+        <a href="showcase.html" class="hover:text-orange-600 transition">Showcase</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <header class="max-w-5xl mx-auto px-6 py-14 text-center">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-2">About Me</h1>
+    <p class="text-slate-500">A snapshot of my education, leadership, and experience.</p>
+  </header>
+
+  <!-- ========== PROFILE / INTRO ========== -->
+  <section class="max-w-5xl mx-auto px-6 pb-14">
+    <div class="bg-white rounded-xl shadow-sm p-8 flex flex-col sm:flex-row items-center gap-8">
+
+      <img
+        src="rayhan.jpg"
+        alt="Portrait of Rayhan Bhuiyan"
+        class="w-40 h-40 rounded-full object-cover shadow-md flex-shrink-0"
+      >
+
+      <div class="text-center sm:text-left">
+        <h2 class="text-2xl font-bold mb-1">Rayhan Bhuiyan</h2>
+        <p class="text-orange-600 font-medium mb-4">CSE Student | Club Executive | Event Volunteer</p>
+
+        <p class="text-slate-600">
+          I am a Computer Science student in the Department of CSE at BAUIST. I serve as an executive member of the BAUIST Computer Club and actively volunteer for CSE Fest 2025. I enjoy organizing events, leading teams, and building engagement through strong planning and communication.
+        </p>
+
+        <a
+          href="#"
+          class="inline-block mt-5 bg-orange-600 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-orange-700 transition"
+        >
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="max-w-5xl mx-auto px-6 pb-14">
+    <h2 class="text-2xl font-bold mb-6">Skills</h2>
+
+    <div class="flex flex-wrap gap-3">
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">C++</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">Python</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">Project Management</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">Hackathon Coordination</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">E-Sports</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">Digital Marketing</span>
+      <span class="bg-white shadow-sm px-4 py-2 rounded-full text-sm font-medium">Leadership</span>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section class="max-w-5xl mx-auto px-6 pb-14">
+    <h2 class="text-2xl font-bold mb-6">Education</h2>
+
+    <div class="space-y-4">
+      <div class="bg-white rounded-xl shadow-sm p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h3 class="font-semibold text-lg">HSC</h3>
+          <p class="text-slate-500">Paruara Abdul Matin Khusro College</p>
+          <p class="text-slate-500 text-sm">GPA: 5.00</p>
+        </div>
+        <span class="text-sm text-slate-400 mt-2 sm:mt-0">2021</span>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h3 class="font-semibold text-lg">SSC</h3>
+          <p class="text-slate-500">Comilla Cantonment High School</p>
+          <p class="text-slate-500 text-sm">GPA: 5.00</p>
+        </div>
+        <span class="text-sm text-slate-400 mt-2 sm:mt-0">2019</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="max-w-5xl mx-auto px-6 pb-20">
+    <h2 class="text-2xl font-bold mb-6">Experience</h2>
+
+    <div class="space-y-4">
+      <div class="bg-white rounded-xl shadow-sm p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+          <h3 class="font-semibold text-lg">Executive Member, BAUIST Computer Club</h3>
+          <span class="text-sm text-slate-400">8th Panel</span>
+        </div>
+        <p class="text-slate-500 mb-2">Department of CSE, BAUIST</p>
+        <ul class="list-disc list-inside text-slate-600 text-sm space-y-2">
+          <li>Served as an active executive member of the 8th panel of the BAUIST Computer Club.</li>
+          <li>Contributed to planning and organizing technical and non-technical events, workshops, and competitions.</li>
+          <li>Collaborated with team members to manage logistics, promotion, and student engagement.</li>
+        </ul>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+          <h3 class="font-semibold text-lg">Volunteer, CSE Fest 2025</h3>
+          <span class="text-sm text-slate-400">2025</span>
+        </div>
+        <p class="text-slate-500 mb-2">Department of CSE, BAUIST</p>
+        <ul class="list-disc list-inside text-slate-600 text-sm space-y-2">
+          <li>Supported the Hackathon and Inter-University Programming Contest (IUPC) during CSE Fest 2025.</li>
+          <li>Assisted with event coordination, participant support, and logistics for smooth execution.</li>
+          <li>Received a certificate of appreciation for dedicated involvement and teamwork.</li>
+        </ul>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+          <h3 class="font-semibold text-lg">Executive Member, BAUIST Sports Club</h3>
+          <span class="text-sm text-slate-400">BAUIST, Cumilla</span>
+        </div>
+        <ul class="list-disc list-inside text-slate-600 text-sm space-y-2">
+          <li>Organized major campus sports events including inter-department football and cricket tournaments.</li>
+          <li>Coordinated planning, fixture scheduling, team management, and on-field logistics.</li>
+          <li>Worked closely with club members to ensure fair play and strong student engagement.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-slate-200 py-8 text-center text-slate-500">
+    <p>&copy; 2026 Rayhan Bhuiyan. All rights reserved.</p>
+    <div class="flex justify-center gap-4 mt-3 text-sm font-medium">
+      <a href="#" class="hover:text-orange-600 transition">GitHub</a>
+      <a href="#" class="hover:text-orange-600 transition">LinkedIn</a>
+      <a href="#" class="hover:text-orange-600 transition">Email</a>
+    </div>
+  </footer>
+
+</body>
+</html>
